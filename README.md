@@ -4,7 +4,8 @@ This directory contains instructions on how to make an nginx "page not found" do
 
 use :
 ```
-docker build -t guillaumebchd/PageNotFound:1.0.0
+cd .../PageNotFound
+docker build -t guillaumebchd/PageNotFound:1.0.0 .
 docker run -d -p 80:80 guillaumebchd/PageNotFound
 ```
 
